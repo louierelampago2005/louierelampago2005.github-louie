@@ -186,21 +186,21 @@ footer p {
 
 .video-self {
     display: flex;
-    flex-direction: column; /* Stack the title and video vertically */
-    align-items: center; /* Center elements horizontally */
-    justify-content: center; /* Center elements vertically */
-    text-align: center; /* Center-align text */
-    margin-bottom: 40px; /* Space between video boxes */
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    margin-bottom: 40px; 
     padding: 20px;
-    background: #ffffff65; /* Add white background for contrast */
-    border-radius: 12px; /* Rounded corners */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background: #ffffff65; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
 }
 
 .video-self video {
-    width: 80%; /* Make video responsive */
-    max-width: 600px; /* Limit maximum width */
-    border-radius: 8px; /* Rounded corners for the video */
+    width: 80%; 
+    max-width: 600px; 
+    border-radius: 8px; 
 }
 
 .lesson-section {
@@ -213,7 +213,7 @@ footer p {
 
 .lesson-header {
     text-align: left;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .lesson-header h1 {
@@ -229,6 +229,13 @@ footer p {
     color: #111;
 }
 
+.lesson-box a {
+	color: #0e0e0e;
+	text-decoration: none;
+	font-weight: bold;
+	align-items: center;
+	margin: 130px;
+}
 .favorite {
     background-color: rgba(255, 255, 255, 0.342);
     padding: 20px;
@@ -319,15 +326,15 @@ footer p {
 
 .video-box {
     display: flex;
-    flex-direction: column; /* Stack the title and video vertically */
-    align-items: center; /* Center elements horizontally */
-    justify-content: center; /* Center elements vertically */
-    text-align: center; /* Center-align text */
-    margin-bottom: 40px; /* Space between video boxes */
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    margin-bottom: 40px; 
     padding: 20px;
-    background: #ffffff65; /* Add white background for contrast */
-    border-radius: 12px; /* Rounded corners */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background: #ffffff65; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
 }
 
 .video-box h1 {
@@ -337,20 +344,20 @@ footer p {
 }
 
 .video-box video {
-    width: 80%; /* Make video responsive */
-    max-width: 600px; /* Limit maximum width */
-    border-radius: 8px; /* Rounded corners for the video */
+    width: 80%; 
+    max-width: 600px; 
+    border-radius: 8px; 
 }
 
 .description-box {
-    margin-top: 20px; /* Add spacing above description */
+    margin-top: 20px; 
     padding: 20px;
     font-size: 16px;
     line-height: 1.5;
     color: #333;
     background: #f9f9f9;
     border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for description */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* =====================
